@@ -233,3 +233,5 @@ wifi.aware.interface=wifi-aware0
 # ScrollOptimizer
 persist.sys.perf.scroll_opt=true
 persist.sys.perf.scroll_opt.heavy_app=1
+# Zygote
+zygote.critical_window.minute=10
