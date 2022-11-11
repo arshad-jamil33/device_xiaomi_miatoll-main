@@ -39,6 +39,9 @@ ro.product.mod_device=_global
 # Phantom process monitoring
 persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
 
+# Render
+debug.cpurend.vsync=false
+
 # WFD
 persist.debug.wfd.enable=1
 vendor.sys.video.disable.ubwc=1
