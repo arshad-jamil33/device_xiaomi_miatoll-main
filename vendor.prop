@@ -190,6 +190,7 @@ persist.vendor.fingerprint.sensor_location=1080|760|100|local:463094658031754841
 ro.incremental.enable=true
 
 # Graphics
+debug.sf.hw=1
 persist.sys.sf.color_mode=9
 debug.sf.disable_client_composition_cache=0
 debug.sf.enable_adpf_cpu_hint=true
