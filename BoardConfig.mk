@@ -85,9 +85,6 @@ BOARD_KERNEL_CMDLINE += msm_rtb.filter=0x237
 BOARD_KERNEL_CMDLINE += service_locator.enable=1
 BOARD_KERNEL_CMDLINE += swiotlb=1
 
-# Media
-TARGET_USES_ION := true
-
 # MiuiCamera
 -include device/xiaomi/miuicamera-miatoll/BoardConfig.mk
 
