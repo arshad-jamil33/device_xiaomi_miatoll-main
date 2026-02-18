@@ -31,7 +31,7 @@
     "remote": "crdroid-gitlab"
   },
   {
-    "repository": "crdroidandroid/proprietary_vendor_xiaomi_sm6250-common",
-    "target_path": "vendor/xiaomi/sm6250-common"
+    "repository": "crdroidandroid/proprietary_vendor_xiaomi_miatoll",
+    "target_path": "vendor/xiaomi/miatoll"
   }
 ]
