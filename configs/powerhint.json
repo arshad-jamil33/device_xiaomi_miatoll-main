@@ -47,7 +47,7 @@
       "Path": "/sys/class/kgsl/kgsl-3d0/max_pwrlevel",
       "Values": [
         "0",
-        "3"
+        "750000"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": true
