@@ -248,3 +248,28 @@ wifi.aware.interface=wifi-aware0
 # ScrollOptimizer
 persist.sys.perf.scroll_opt=true
 persist.sys.perf.scroll_opt.heavy_app=1
+
+#Remove Force triple frame buffers
+#Causing some apps laggy & UI performance regression
+ro.surface_flinger.max_frame_buffer_acquired_buffers=0
+
+#Enable frame pacing for smoother visual performance
+vendor.perf.framepacing.enable=1
+
+#Add a property to enable prefetching video
+persist.mm.enable.prefetch=true
+
+#disable_gl_backpressure
+debug.sf.enable_gl_backpressure=0
+
+#Enable debug.performance.tuning
+debug.performance.tuning=1
+
+#Disable EGL image tracking
+debug.sf.enable_egl_image_tracker=0
+
+#screen record lag fix
+debug.sdm.support_writeback=0
+
+#Allow games to use 120fps
+ro.surface_flinger.game_default_frame_rate_override=120
