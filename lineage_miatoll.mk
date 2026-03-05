@@ -18,6 +18,9 @@ $(call inherit-product, device/xiaomi/miatoll/device.mk)
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
+PERF_ANIM_OVERRIDE := true
+TARGET_OPTIMIZED_DEXOPT := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := lineage_miatoll
 PRODUCT_DEVICE := miatoll
