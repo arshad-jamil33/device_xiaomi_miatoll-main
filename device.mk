@@ -16,6 +16,9 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# ART
+PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-impl \
