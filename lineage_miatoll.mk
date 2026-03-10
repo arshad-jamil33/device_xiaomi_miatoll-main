@@ -42,30 +42,22 @@ AVIUM_MAINTAINER := KimChi
 # Settings
 # Soc model name
 AVIUM_SETTINGS_SOC_MODEL_NAME := Snapdragon_720G
+
 # Device code name
 AVIUM_SETTINGS_DEVICE_CODENAME := Miatoll
 
 # GMS
-# WITH_GMS is a boolean flag to indicate 
-# whether to include Google Mobile Services (GMS) in the build.
 WITH_GMS := true
-# Google Sans
-# Enable this to set default fonts to Google Sans.
-# This also works when building vanilla, but you
-# need to sync vendor/pixel/gsans repo.
+
+# GSANS
 TARGET_USES_GSANS := false
-# LatinIMEGooglePrebuilt
-# Only works on vanilla builds,
+
 # GMS builds will use the Google IME from GMS.
-TARGET_INCLUDE_GOOGLEIME ?= false
-TARGET_GOOGLEIME_OVERRIDE_IME ?= false
+TARGET_INCLUDE_GOOGLEIME := true
+TARGET_GOOGLEIME_OVERRIDE_IME := true
 
 # Spoof Props
-# Set to true to enable spoofing fake props.
-# For letting apps think they are running on a locked device.
 AVIUM_FORCE_SET_FAKE_PROP := true
 
 # Blur Effect
-# The blur usually enabled on Android 16 QPR2.
-# If the blur not enabled, set to true to force enable blur for SystemUI.
 TARGET_FORCE_ENABLE_BLUR := true
