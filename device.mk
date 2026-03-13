@@ -339,10 +339,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal/thermal-engine-normal-joyeuse.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-normal-joyeuse.conf \
     $(LOCAL_PATH)/configs/thermal/thermal-engine-camera-joyeuse.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-camera-joyeuse.conf
 
-# TimeKeep
-PRODUCT_PACKAGES += \
-    TimeKeep
-
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3-service.dual_role_usb \
