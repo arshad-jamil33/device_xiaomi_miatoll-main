@@ -30,3 +30,14 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="miatoll_global-user 12 SKQ1.211019.001 V14.0.3.0.SJZMIXM release-keys" \
     BuildFingerprint=Redmi/miatoll_global/miatoll:12/RKQ1.211019.001/V14.0.3.0.SJZMIXM:user/release-keys
+
+# To include Gapps 
+WITH_GMS := true
+
+# To Build Pixel launcher
+TARGET_INCLUDE_NEXUS := true
+
+# Some more GMS Flag:
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_STOCK_AICORE := true
