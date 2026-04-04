@@ -30,6 +30,3 @@ vendor.mm.enable.qcom_parser=16777199
 # WFD
 persist.debug.wfd.enable=1
 vendor.sys.video.disable.ubwc=1
-
-# HWUI
-ro.hwui.render_ahead=2
