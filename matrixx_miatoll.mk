@@ -53,3 +53,5 @@ MATRIXX_MAINTAINER := KimChi_and_スレシャド
 
 HBM_SUPPORTED := false
 HBM_NODE := /sys/class/backlight/panel0-backlight/hbm_mode
+
+SURFACE_FLINGER_BOOST := true
