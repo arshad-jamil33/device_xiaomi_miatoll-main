@@ -1,0 +1,20 @@
+[
+  {
+    "repository": "arshad-jamil33/vendor_xiaomi_miatoll",
+    "target_path": "vendor/xiaomi/miatoll",
+    "branch": "16.2",
+    "remote": "github-non-los",
+  },
+  {
+    "repository": "arshad-jamil33/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "remote": "github-non-los",
+    "branch": "16.2"
+  },
+  {
+    "repository": "arshad-jamil33/android_kernel_xiaomi_sm6250",
+    "target_path": "kernel/xiaomi/sm6250",
+    "remote": "github-non-los",
+    "branch": "16.2"
+  }
+]
