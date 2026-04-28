@@ -51,3 +51,14 @@ debug.cpurend.vsync=false
 # WFD
 persist.debug.wfd.enable=1
 vendor.sys.video.disable.ubwc=1
+
+#Mistify
+ro.mist.display=1080 x 2400, 60 hz
+ro.mist.battery=5020mah
+ro.mist.soc=Snapdragon® 720G
+ro.mist.camera=64MP + 8MP + 5MP + 2MP 
+ro.mist.front=32MP
+ro.mist.platform=SM6250
+ro.mist.screen=6.67' IPS LCD
+ro.mist.device.name=Miatoll
+
