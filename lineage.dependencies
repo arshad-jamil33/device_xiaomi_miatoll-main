@@ -2,14 +2,14 @@
   {
     "repository": "arshad-jamil33/device_xiaomi_miatoll-main",
     "target_path": "vendor/xiaomi/miatoll",
-    "branch": "16.2"
-    "remote": "github-non-los",
+    "branch": "16.2",
+    "remote": "github-non-los"
   },
   {
     "repository": "arshad-jamil33/vendor_xiaomi_miatoll",
     "target_path": "vendor/xiaomi/miatoll",
-    "branch": "16.2"
-    "remote": "github-non-los",
+    "branch": "16.2",
+    "remote": "github-non-los"
   },
   {
     "repository": "arshad-jamil33/android_hardware_xiaomi",
